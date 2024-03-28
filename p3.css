@@ -1,0 +1,40 @@
+table.customTable {
+    width: 50%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+    border-width: 5px;
+    border-color:pink;
+    border-style: solid;
+    color: blueviolet;
+    }
+    
+    table.customTable td, table.customTable th {
+    border-width: 5px;
+    border-color: black;
+    border-style: dashed solid;
+    padding: 10px;
+    }
+    
+    table.customTable th {
+    background-color: light purple;
+    }
+    
+    .display-none {
+       display:none;
+    }
+    /* Sage green background color for the update section */
+#div_update {
+    background-color: green; /* Sage green color */
+    padding: 20px; /* Add padding for spacing */
+}
+
+/* Light blue background color for the delete section */
+#div_delete {
+    background-color: #ADD8E6; /* Light blue color */
+    padding: 20px; /* Add padding for spacing */
+}
+/* Sage green background color for the insert section */
+#div_insert {
+    background-color: green; /* Sage green color */
+    padding: 20px; /* Add padding for spacing */
+}
